@@ -27,8 +27,11 @@ import numpy as np
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
 
+<<<<<<< HEAD
 plt.style.use('ggplot')
 
+=======
+>>>>>>> dbb07545f438d155b0a323882fb664150170496c
 q = 1; me = 1; Mp = 10*me; B0 = np.array([0,0,1])  # Module of charge, mass and magnetic field
 
 def computeTrajectories(func, E0=np.zeros(3), **keywords):
